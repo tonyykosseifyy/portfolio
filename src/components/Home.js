@@ -17,7 +17,7 @@ const Home = props => {
    };
     return (
         <section>
-            <Navbar home setHomeHover={setHover} />
+            <Navbar scroll={props.scroll} home setHomeHover={setHover} />
             <div className="home">       
                 <video autoPlay muted loop id="myVideo">
                     <source src={video} type="video/mp4" />
