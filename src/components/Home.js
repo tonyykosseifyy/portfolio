@@ -27,22 +27,8 @@ const Home = props => {
                     <h1>I'm a Frontend Web Developer </h1>
                     <Button {...cursorProps}>Check My Work <FiArrowRight className="icon" size="1.3em" style={{marginLeft:"8px", transform: buttonHover && "rotate(90deg)"}} /></Button>
                 </div>
-                <AnimatedCursor
-                    color="255,255,255"
-                    innerSize={17}
-                    outerSize={60}
-                    innerScale={1.2}
-                    outerScale={1.4}
-                    outerAlpha={3}
-                    outerStyle={{
-                        background: "transparent",
-                        border: "2px solid white",
-                    }}
-                    trailingSpeed={8}
-                    innerStyle={{
-                        display: ( hover || buttonHover) && "none"
-                    }}
-                />
+
+                <AnimatedCursor color="255,255,255" innerSize={17} outerSize={60} innerScale={1.2} outerScale={1.4} outerAlpha={3} outerStyle={{background: "transparent",border: "2px solid white",}} trailingSpeed={8} innerStyle={{display: ( hover || buttonHover) && "none"}} />
 
             </div>
         </section>
@@ -55,7 +41,7 @@ export default Home ;
 
 const NameText = styled.span`
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.8rem ;
+    font-size: inherit ;
 `;
 
 const Button = styled.button`
