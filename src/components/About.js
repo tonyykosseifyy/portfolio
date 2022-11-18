@@ -1,13 +1,15 @@
 import React from "react";
-import "./About.css";
-
+import "../styles/About.css";
+import { Element } from 'react-scroll'
 
 const About = () => {
     return (
-        <section className="about">
+        <Element name="about" className="about">
+            <Element name="about">
 
-        </section>
-    );
+            </Element>
+        </Element>
+    );  
 };
 
 export default About ;

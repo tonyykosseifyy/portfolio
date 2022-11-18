@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import styled from "styled-components";
 
 const links_list = ["Home", "About" , "Portfolio" , "Contact"];
