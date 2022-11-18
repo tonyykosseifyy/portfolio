@@ -1,5 +1,5 @@
 .home {
-	min-width: 100vh ;
+	width: 100%;
 	background: transparent;
 	display: flex ; 
 	align-items: center;
